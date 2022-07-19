@@ -13,7 +13,7 @@ class SampleDataModel : ViewModel() {
         _textCount.value = (_textCount.value ?: 0) + 1
     }
 
-    fun reMove(){
+    fun reMove() {
         _textCount.value = (_textCount.value ?: 0) - 1
     }
 }
